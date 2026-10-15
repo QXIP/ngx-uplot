@@ -13,6 +13,7 @@ import { ChartType } from './models/chart.model';
 const uPlot: any = (_uPlot as any)?.default;
 
 @Component({
+    standalone: false,
     selector: 'ngx-uplot',
     template: `<div style="margin: 0.5rem;" #chartUPlot></div>`,
     styleUrls: ['./ngx-uplot.style.scss'],

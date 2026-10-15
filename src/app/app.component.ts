@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ChartType } from 'projects/ngx-uplot/src/lib/models/chart.model';
 
 @Component({
+    standalone: false,
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
